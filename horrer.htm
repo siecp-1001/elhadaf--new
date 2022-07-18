@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="horrer.css">
+    <title>horrer</title>
+    <!-- Add icon library -->
+
+</head>
+<body>
+    
+    <h2 color: blue;>this is ahorrergame <br>Ihope you will enjoy it</h2>
+    <p>     <br>    </p>
+<p>this Game talk about alone man in amestry home<br> that ashadow man try to kill him.</p>
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="4155505.png" style="width:100%">
+        <div class="text"></div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="4155489.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="4155491.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="4155492.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+      
+      
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+   
+   
+  </script>
+
+<p>
+<br>
+
+Horsemen.Apocalypse
+
+
+<br>
+
+DONOT SCARE WE JUST PLAY
+
+
+
+
+</p>
+
+
+
+      <h3>the movie</h3>
+<video width="100%" controls>
+  <source src="[EgyBest].4.Horsemen.Apocalypse.2022.WEB-DL.720p.x264(1).mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+
+</video>
+
+
+    
+
+</body>
+</html>
